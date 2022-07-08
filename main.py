@@ -16,4 +16,6 @@ if __name__ == '__main__':
     json_header = {'Content-Type': 'application/json'}
     res = requests.post('http://127.0.0.1:5000/add_dog', data=json.dumps(dog), headers=json_header)
 
+    print("This is first change to cvommit")
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
