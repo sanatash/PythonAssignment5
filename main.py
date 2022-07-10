@@ -15,6 +15,10 @@ if __name__ == '__main__':
     dog = {"name": 'sheleg', "age": 12, "breed": 'husky'}
     json_header = {'Content-Type': 'application/json'}
     res = requests.post('http://127.0.0.1:5000/add_dog', data=json.dumps(dog), headers=json_header)
+
     num = 10
     print("This commit was done on master! ", num)
+
+    print("This is first change to cvommit")
+    
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
